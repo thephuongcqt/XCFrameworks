@@ -13,16 +13,23 @@ let package = Package(
         .package(url: "https://github.com/Moya/Moya.git", .branch("development")),
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.0")),        
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0"))
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0")),
+        .package(url: "https://github.com/RxSwiftCommunity/RxGRDB.git", .upToNextMajor(from: "2.0.0"))
     ],
     targets: [
         .target(
             name: "XCFrameworks",
             dependencies: [
-                "RxDataSources",  
-                .product(name: "RxMoya", package: "Moya"),
+                "RxDataSources",
+                "RxSwift",
+                .product(name: "RxCocoa", package: "RxSwift"),
+                .product(name: "RxRelay", package: "RxSwift"),
                 .product(name: "RxBlocking", package: "RxSwift"),
-                .product(name: "RxTest", package: "RxSwift")
+                .product(name: "RxTest", package: "RxSwift"),
+                "Moya",
+                .product(name: "RxMoya", package: "Moya"),
+                "Alamofire",
+                "RxGRDB",
             ]
         ),
     ]

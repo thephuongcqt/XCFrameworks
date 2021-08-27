@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "GRDB",
+        "repositoryURL": "https://github.com/groue/GRDB.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "ba41c22304f9dd9e48266bd288bb7bfcdc992361",
+          "version": "5.10.0"
+        }
+      },
+      {
         "package": "Logger",
         "repositoryURL": "https://github.com/shibapm/Logger",
         "state": {
@@ -89,6 +98,15 @@
           "branch": null,
           "revision": "e4627ac4f5a8dc10719030561801825c443acfec",
           "version": "5.0.1"
+        }
+      },
+      {
+        "package": "RxGRDB",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxGRDB.git",
+        "state": {
+          "branch": null,
+          "revision": "a7e6051ffca647775b144537baa210ac290ccbf3",
+          "version": "2.0.0"
         }
       },
       {
