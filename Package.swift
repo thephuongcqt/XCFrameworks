@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.0")),        
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0")),
-        .package(url: "https://github.com/RxSwiftCommunity/RxGRDB.git", .upToNextMajor(from: "2.0.0"))
+        .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.1.0"))
     ],
     targets: [
         .target(
@@ -29,7 +29,7 @@ let package = Package(
                 "Moya",
                 .product(name: "RxMoya", package: "Moya"),
                 "Alamofire",
-                "RxGRDB",
+                "Zip"
             ]
         ),
     ]

@@ -11,15 +11,6 @@
         }
       },
       {
-        "package": "GRDB",
-        "repositoryURL": "https://github.com/groue/GRDB.swift.git",
-        "state": {
-          "branch": null,
-          "revision": "ba41c22304f9dd9e48266bd288bb7bfcdc992361",
-          "version": "5.10.0"
-        }
-      },
-      {
         "package": "Logger",
         "repositoryURL": "https://github.com/shibapm/Logger",
         "state": {
@@ -101,15 +92,6 @@
         }
       },
       {
-        "package": "RxGRDB",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxGRDB.git",
-        "state": {
-          "branch": null,
-          "revision": "a7e6051ffca647775b144537baa210ac290ccbf3",
-          "version": "2.0.0"
-        }
-      },
-      {
         "package": "RxSwift",
         "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {
@@ -134,6 +116,15 @@
           "branch": null,
           "revision": "9ff1cc9327586db4e0c8f46f064b6a82ec1566fa",
           "version": "4.0.6"
+        }
+      },
+      {
+        "package": "Zip",
+        "repositoryURL": "https://github.com/marmelroy/Zip.git",
+        "state": {
+          "branch": null,
+          "revision": "bd19d974e8a38cc8d3a88c90c8a107386c3b8ccf",
+          "version": "2.1.1"
         }
       }
     ]
