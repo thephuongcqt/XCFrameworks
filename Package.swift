@@ -10,11 +10,10 @@ let package = Package(
        .library(name: "XCFrameworks", targets: ["XCFrameworks"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Moya/Moya.git", .branch("development")),
+        .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0")),
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.0")),        
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0")),
-        .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.1.0"))
     ],
     targets: [
         .target(
@@ -29,7 +28,6 @@ let package = Package(
                 "Moya",
                 .product(name: "RxMoya", package: "Moya"),
                 "Alamofire",
-                "Zip"
             ]
         ),
     ]
